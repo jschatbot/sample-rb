@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "LASTbot.py", line 104, in <module>
+    replies.append( api.make_reply(rule_rewrite, rule_trigger, x.get('mention_id'), x.get('user_name'), x.get('text')) )
+  File "LASTbot.py", line 72, in make_reply
+    message = messages['texts'][0]
+IndexError: list index out of range
